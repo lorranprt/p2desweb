@@ -67,12 +67,10 @@
     justify-content: center;
     display: flex;
     flex-direction: column;
-    border: 1px solid;
     border-radius: 8px;
     margin: 10px;
-    padding: 10px;
     width: 200px;
-    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.185);
+    box-shadow: 5px 5px 10px rgb(235, 5, 5)
 }
 
 #nome_atleta{
