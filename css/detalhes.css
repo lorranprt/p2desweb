@@ -1,0 +1,82 @@
+*{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+#cabecalho{
+
+    background-color: rgb(78, 78, 78);
+    height: 55px;
+    display: flex;
+}
+
+#titulocabecalho{
+    margin-top: 10px;
+    background-color: rgb(78, 78, 78);
+    margin-left: 15px;
+}
+
+#botaosair{
+    width: 70px;
+    height: 30px;  
+}
+
+#botaovoltar{
+    width: 70px;
+    height: 30px;  
+}
+
+#botoes{
+    margin-top: 13px;
+    margin-left: auto;
+    margin-right: 15px;
+    background-color: rgb(78, 78, 78);
+}
+
+
+
+#paginadetalhes{
+    display: flex;
+    flex-direction: row;
+}
+
+#detalhes{
+    margin-top: auto;
+    margin-left: 30px;
+    font-size: 1.3em;
+    
+}
+
+
+@media (max-width: 768px){
+    #paginadetalhes{
+        display: block;
+        
+        
+    }
+    #nomeimagem{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #barra{
+        background: rgb(31, 31, 31);
+        color: white;
+        text-align: center;
+        padding: 1.5px;
+        
+    }
+    #cabecalho{
+        height: 100px;
+    }
+    #titulocabecalho{
+        margin-top: 30px;
+        background-color: rgb(78, 78, 78);
+        margin-left: 15px;
+    }
+    
+    #botoes{
+        margin-top: 30px;
+    }
+    
+    
+}

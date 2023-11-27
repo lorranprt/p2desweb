@@ -1,38 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
 body {
   background-color: rgb(48, 47, 47);
   color: white;
   font-family: 'Poppins', sans-serif;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #info {
   margin: 0 auto;
   width: 70%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 #foto_jog {
-  font-size: 20pt;
+  font-size: 2rem;
+  margin-right: 1rem;
 }
 
 #detalhes {
-  margin-top: 4rem;
+  margin-top: 2rem;
   text-align: left;
   padding-left: 20px;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 768px) {
   #info {
-    display: grid;
+    width: 100%;
   }
   #foto_jog {
-    font-size: 15pt;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
   }
   #detalhes {
-    margin-top: 2rem;
-    font-size: 10pt;
+    margin-top: 1rem;
+    font-size: 1rem;
   }
 }
 

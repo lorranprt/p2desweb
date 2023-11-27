@@ -1,0 +1,167 @@
+*{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+#cabecalho{
+    background-color: rgb(255, 0, 0);
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#titulocabecalho{
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: red;
+}
+
+#botaosair{
+    margin-top: 13px;
+    margin-left: auto;
+    margin-right: 15px;
+    width: 70px;
+    height: 30px;
+    
+
+}
+
+
+
+#botaoselecoes{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#selectselecoes{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#Masculino{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(248, 6, 6);
+}
+#Feminino{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(248, 6, 6);
+}
+#Todos{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(248, 6, 6);
+}
+
+
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#container_atleta{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.185);
+}
+
+#nome_atleta{
+    text-align: center;
+    margin: 15px;
+    font-size: 19px;
+}
+
+#imagens{
+    justify-content: center;
+}
+
+#saiba_mais{
+    text-align: center;
+    color: black;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+
+
+
+@media (max-width: 1200px) and (min-width: 1024) {
+    #container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    #botaoselecoes{
+        display: initial;
+    }
+    #selectselecoes{
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px){
+    #container{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+
+    }
+    #container_atleta{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    #botaoselecoes{
+        display: initial;
+    }
+    #selectselecoes{
+        display: none;
+    }
+
+}
+
+@media (max-width: 768px){
+    #container{
+        display: grid;
+        grid-template-columns: 1fr; 
+          
+    }
+    #container_atleta{
+        margin: auto;
+        margin-bottom: 30px;
+    }
+ 
+
+}
+
+
+@media (min-width: 769px){
+    #botaoselecoes{
+        display: block;
+    }
+     #selectselecoes{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    #botaoselecoes{
+        display: none;
+    }
+     #selectselecoes{
+        display: block;
+    }
+    #selecao{
+        background-color: black;
+        
+        padding: 1em;
+    }
+}

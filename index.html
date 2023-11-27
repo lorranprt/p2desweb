@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Elenco</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botafogo</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/codigo.js"></script>
+    <script src="JS/md5.js"></script>
+    
 </head>
 <body>
+    <div id="container">
+    <div id="div1">
+    <h1 id="titulo">Atletas do Botafogo em 2023-2</h1>
+    </div>
 
-  <h1>Elenco Profissional</h1>
-  <h1>Elenco Feminino</h1>
-  <div id="jogadoras"></div>
-
-  <h1>Elenco Masculino</h1>
-  <div id="jogadoresmasc"></div>
-
-  <script src="js/jogadores2023.js"></script>
-  <script src="js/jogadores.js"></script>
+    <form>
+            <div id="div2">
+                <input type="text" id="senha" placeholder="Informe a senha">
+                <input type="submit" value="Entrar" id="botao" onclick="logar(); return false">
+                <p>Faça o login com a palavra: senha</p>
+            </div>
+    </form>
+</div>
 
 </body>
 </html>
